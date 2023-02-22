@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://azuredb111.database.windows.net:1433;database=Azuredb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: Deepak
+    password: ashiashu@7
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2005Dialect
+
+server:
+  port: 9193
